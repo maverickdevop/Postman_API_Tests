@@ -17,6 +17,8 @@ In tests, I use checking:
 4) I get 2 arrays and compare them with each other, thereby I check that all task id are completed.( Not executed and not stuck)
 
 
-The screenshot below shows a run of tests that they work
+The screenshots below shows a run of tests that they work
 
 ![image](https://user-images.githubusercontent.com/57834199/179417176-4c488049-04f7-49c8-b41b-76f621d96b11.png)
+![image](https://user-images.githubusercontent.com/57834199/179417311-5184bf30-9e6d-460a-b4aa-6fcf5fb4f371.png)
+
