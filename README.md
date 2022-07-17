@@ -1,22 +1,22 @@
 # Postman_API_Tests
 Only a tiny part of the API tests that I write in Postman at my job
 
-Test examples
+Test examples<br />
 
-Creating environment variables for the WS collection API.
+Creating environment variables for the WS collection API.<br />
 
-Includes getting {{host_ru}} for the request
-Enables {{ws_name}} for query parameters of the GET request
-Enables {{TOKEN}} for Auth. I send POST request to authoriz, get Bearer Token and use in inside the GET-request
-Use variables in CSV and JSON files. 
-Use variables from a CSV file in GET/POST requests
+Includes getting __{{host_ru}}__ for the request host in URL<br />
+Enables __{{ws_name}}__ and __{{q}}__ for query parameters of the GET request<br />
+Enables __{{TOKEN}}__ for Auth. I send POST request to authoriz, get Bearer Token and use in inside the GET-request<br />
+Use variables in CSV and JSON files. <br />
+Use variables from a CSV file in GET/POST requests<br />
 
 
-In tests, I use checking:
-1) For the response code from the server (HTTP 200 in positive scenarious),
-2) Validating the JSON schema
-3) Checking that in the search for the task in the JSON response, the name parameter contains the desired name {{ws_name}}
-4) I get 2 arrays and compare them with each other, thereby I check that all task id are completed.( Not executed and not stuck)
+In tests, I use checking:<br />
+1) For the response code from the server (***HTTP 200 in positive scenarious***),<br />
+2) Validating the JSON schema<br />
+3) Checking that in the search for the task in the JSON response, the name parameter contains the desired name {{ws_name}}<br />
+4) I get 2 arrays and compare them with each other, thereby I check that all task id are completed.( Not executed and not stuck)<br />
 
 
 The screenshots below shows a run of tests that they work
