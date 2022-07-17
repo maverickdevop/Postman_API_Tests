@@ -8,6 +8,8 @@ Creating environment variables for the WS collection API.
 Includes getting {{host_ru}} for the request
 Enables {{ws_name}} for query parameters of the GET request
 Enables {{TOKEN}} for Auth. I send POST request to authoriz, get Bearer Token and use in inside the GET-request
+Use variables in CSV and JSON files. 
+Use variables from a CSV file in GET/POST requests
 
 
 In tests, I use checking:
@@ -23,4 +25,5 @@ The screenshots below shows a run of tests that they work
 ![image](https://user-images.githubusercontent.com/57834199/179417311-5184bf30-9e6d-460a-b4aa-6fcf5fb4f371.png)
 
 Runned all collection with info:
+
 ![image](https://user-images.githubusercontent.com/57834199/179417481-68e7cc48-f892-4942-bf20-3d3ca9b6e05d.png)
