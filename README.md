@@ -15,8 +15,8 @@ Use variables from a CSV file in GET/POST requests<br />
 In tests, I use checking:<br />
 1) For the response code from the server (***HTTP 200 in positive scenarious***),<br />
 2) Validating the JSON schema<br />
-3) Checking that in the search for the task in the JSON response, the name parameter contains the desired name {{ws_name}}<br />
-4) I get 2 arrays and compare them with each other, thereby I check that all task id are completed.( Not executed and not stuck)<br />
+3) Checking that in the search for the task in the JSON response, the name parameter contains the desired name __{{ws_name}}__<br />
+4) I get 2 arrays and compare them with each other, thereby I check that all task id are completed. __(Not executed and not stuck)__<br />
 
 
 The screenshots below shows a run of tests that they work
